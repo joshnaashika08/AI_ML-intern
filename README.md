@@ -87,6 +87,42 @@ Task-3:
 ## ✅ Conclusion
 The model predicts house prices based on multiple features and reveals which variables most influence pricing.
 
+TASK-4:
+
+# 🔍 Logistic Regression - Binary Classification
+
+## 📌 Objective
+   Build a **binary classifier** using Logistic Regression to predict diagnoses (Malignant or Benign) based on tumor features from the breast cancer dataset.
+---
+## 🧰 Tools & Libraries
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+---
+## 🧠 Learning Type
+- **Supervised Learning**
+- **Classification Task**
+- Algorithm: **Logistic Regression**
+---
+## 🪜 Steps Performed
+1. Loaded and preprocessed the dataset  
+2. Converted diagnosis labels (`M`, `B`) to binary (1, 0)  
+3. Split data into training and testing sets  
+4. Standardized features using `StandardScaler`  
+5. Trained a Logistic Regression model  
+6. Evaluated using confusion matrix, precision, recall, and ROC-AUC  
+7. Tuned threshold manually  
+8. Visualized the **sigmoid function**
+---
+## ✅ Conclusion
+The model effectively classifies tumors as benign or malignant and provides interpretable feature impacts. Logistic Regression offers a reliable and explainable approach to medical diagnostics.
+
+
+
+
+
+
 
 
 
