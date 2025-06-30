@@ -118,6 +118,40 @@ TASK-4:
 ## ✅ Conclusion
 The model effectively classifies tumors as benign or malignant and provides interpretable feature impacts. Logistic Regression offers a reliable and explainable approach to medical diagnostics.
 
+TASK_5:
+
+# 🧠 Tree-Based Models on Heart Disease Dataset
+
+This project explores decision tree-based algorithms to classify heart disease presence using the `heart.csv` dataset.
+
+## Objective:
+        Build and evaluate tree-based models for heart disease prediction using Decision Tree and Random Forest.  Visualize decision flow with Graphviz and interpret feature importance with cross-validation metrics.
+
+## 🛠️ Tools & Libraries
+- Python 3.9
+- Scikit-learn
+- Pandas, Seaborn, Matplotlib
+- Graphviz (for visualization)
+  
+## 📊 What Was Done
+- Trained a **Decision Tree Classifier** and visualized it using **Graphviz**
+- Prevented overfitting using `max_depth`
+- Built a **Random Forest Classifier** and compared performance
+- Extracted and plotted **feature importances**
+- Evaluated models using **confusion matrix**, **classification report**, and **cross-validation**
+
+## 📌 Key Insights
+- Random Forests significantly improve accuracy by reducing overfitting
+- Features like `cp`, `thalach`, and `exang` had the most impact on predictions
+
+## ✅ Output
+Visuals are saved in the `output/` folder:
+- `decision_tree_graphviz.png` – Visualized Decision Tree
+- `random_forest_feature_importance.png` – Feature Importance Plot
+
+
+
+
 
 
 
